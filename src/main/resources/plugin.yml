@@ -1,0 +1,7 @@
+name: ElytraWarning
+version: ${project.version}
+main: ca.henrychang.elytrawarning.ElytraWarning
+api-version: 1.19
+authors: [ hdlineage ]
+description: Warns players when elytra durability is below a customizable threshold.
+website: henrychang.ca
