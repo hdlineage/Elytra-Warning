@@ -12,7 +12,7 @@ public final class ElytraWarning extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        getServer().getConsoleSender().sendMessage("Elytra Warning Plugin Version 1.0");
+        getServer().getConsoleSender().sendMessage("Elytra Warning Plugin Version 1.1");
         getServer().getConsoleSender().sendMessage("Elytra Warning Plugin Starting...");
 
         String warning_string = "Warning-Threshold";

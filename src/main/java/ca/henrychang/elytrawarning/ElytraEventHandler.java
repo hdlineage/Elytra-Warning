@@ -28,6 +28,8 @@ public class ElytraEventHandler implements Listener {
         if(entity instanceof Player){
             Player player = ((Player) entity).getPlayer();
 
+            if(player.getInventory().getChestplate() == null) return;
+
             if(player.getInventory().getChestplate().getType() == Material.ELYTRA){
 
                 BukkitRunnable task = new CheckInFlight(player);
